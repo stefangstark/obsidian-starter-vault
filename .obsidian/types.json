@@ -1,0 +1,16 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "time": "date",
+    "date": "date",
+    "topics": "multitext",
+    "project": "multitext",
+    "collegues": "multitext",
+    "supers": "multitext",
+    "gits": "multitext",
+    "startdate": "date",
+    "category": "multitext"
+  }
+}

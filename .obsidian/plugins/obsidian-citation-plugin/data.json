@@ -1,0 +1,9 @@
+{
+  "citationExportFormat": "biblatex",
+  "literatureNoteTitleTemplate": "@{{citekey}}",
+  "literatureNoteFolder": "Literature",
+  "literatureNoteContentTemplate": "---\nprogress: 10\nreading-lists:\ncontribution:\ntitle-short: {{titleShort}}\nalias:\ncitekey: {{citekey}}\nvenue: {{containerTitle}}\ntitle: \"{{title}}\"\nDOI: {{DOI}}\nyear: {{year}}\nauthors: {{authorString}}\nweb: \"{{URL}}\"\npdf: \"[[Documents/Storage/{{citekey}}.pdf]]\"\ntags: articles\n---\n\n# {{title}}\n`$=dv.span(\"<progress max=101 value=\" + dv.current().file.frontmatter.progress + \"> </progress>\")`\n[web]({{URL}}) [laptop](<file://{{entry.files.[0]}}>) [[Documents/Storage/{{citekey}}.pdf|pdf]] \n\n> [!example]- Authors\n> {{authorString}}\n\n> [!quote]- Abstract\n> > {{abstract}}\n\n# Notes",
+  "markdownCitationTemplate": "[@{{citekey}}]",
+  "alternativeMarkdownCitationTemplate": "@{{citekey}}",
+  "citationExportPath": "/Users/starks/Zotero/library.bib"
+}
